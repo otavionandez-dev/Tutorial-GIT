@@ -1,0 +1,134 @@
+*{
+    box-sizing:border-box ;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.6;
+}
+h1,h2,h3{
+    color: rgb(110, 80, 39);
+
+    text-align: center;
+}
+h1{
+    font-size: 39px;
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 27px;
+}
+h3{
+    font-size: 21px;
+}
+a{
+    color: rgb(149, 104, 55);
+}
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.cabecalho{
+    background-color: rgb(184, 147, 53);
+    color: rgb(234, 234, 234);
+    padding: 30px;
+    text-align: center;
+    
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+.cabecalho h1{
+    color: rgb(234, 234, 234);
+}
+.etiqueta{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 5px;
+    color: rgb(255, 221, 231);
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.menu-lista{
+    margin: 20px 0 0;
+    padding: 0;
+
+    list-style: none;
+}
+.menu-lista li{
+  display:inline-block;  
+
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+.menu-link:hover{
+    background-color: rgb(154, 126, 35);
+    box-shadow: 0px 4px 12px rgb(196, 156, 62);
+    transform: translate(-2px);
+    color: rgb(255, 255, 255);
+}
+.menu-link{
+    display: inline-block;
+    padding: 2px ;
+    background-color: rgb(220, 201, 73);
+    color:rgb(0, 0, 0) ;
+    border: 1px solid rgb(209, 185, 32);
+    border-radius: 2px;
+    
+}
+.secao{
+    padding: 72px 0;
+}
+
+.titulo-secao{
+    margin-bottom: 32px;
+    padding-left: 12px;
+    border-left: 5px solid rgb(37, 70, 116);
+    border-radius: 5px;
+}
+.grade-cards{
+    display: grid;
+    gap: 24px;
+}
+.card{
+    padding: 24px;
+    background-color: rgb(255, 247, 238);
+    border: 1px solid rgb(255, 247, 238);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgb(206, 165, 82);
+    text-align: center;
+}
+.lista-tecnologia{
+    display: inline-block;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.lista-tecnologia li{
+    padding: 10px 14px;
+    background-color:rgb(246, 243, 243);
+    display: inline;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 999px;
+}
+.rodape{
+    margin-top: 40px;
+    padding: 25px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(188, 163, 38);
+    text-align: center;
+}
+.rodape address{
+    font-style: italic;
+    
+}
+
+.code, pre{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+
+}
